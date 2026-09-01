@@ -17,7 +17,7 @@
 
             <label for="">escolha a operacao:</label>
             <select name="conta">
-                <option value="1">Somar</option>
+                <option value="1">Soma</option>
                 <option value="2">Subtrair</option>
                 <option value="3">Dividir</option>
                 <option value="4">Multiplicar</option>
