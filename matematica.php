@@ -7,7 +7,11 @@ case 1: $resultado = $numero1 + $numero2;
 break;
 case 2: $resultado = $numero1 - $numero2;
 break;
-case 3: $resultado = $numero1 / $numero2;
+case 3:  if ($numero2 == 0) {
+            $resultado = "Não existe";
+        } else {
+            $resultado = $numero1 / $numero2; 
+        }
 break;
 case 4: $resultado = $numero1 * $numero2;
 break;}
