@@ -8,17 +8,23 @@
 <body>
     
     <form action="matematica.php" method="get">
-    <pre>
-        <label for="">digite o primeiro numero:</label>
+        <pre>
+         <label for="">digite o primeiro numero:</label>
             <input type="number" name="numero1" id="">
+
+        <label for="">escolha a operacao:</label>
+            <select name="opcao">
+                <option value="1">Somar</option>
+                <option value="2">Subtrair</option>
+                <option value="3">Dividir</option>
+                <option value="4">Multiplicar</option>
+            </select>
+
             <label for="">digite o segundo numero:</label>
             <input type="number" name="numero2" id="">
 
             <input type="submit" value="enviar">    <input type="reset" value="limpar">
-
-
-
-    </pre>
+        </pre>
     </form>
 </body>
 </html>
