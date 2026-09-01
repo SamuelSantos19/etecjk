@@ -13,7 +13,7 @@
             <input type="number" name="numero1" id="">
 
         <label for="">escolha a operacao:</label>
-            <select name="opcao">
+            <select name="conta">
                 <option value="1">Somar</option>
                 <option value="2">Subtrair</option>
                 <option value="3">Dividir</option>
