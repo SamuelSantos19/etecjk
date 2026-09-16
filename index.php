@@ -27,7 +27,9 @@
     
       <button class="nav-link active bg-success" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-commerce" type="button" role="tab" aria-controls="nav-commerce" aria-selected="false">Área comercial</button>
     
+      <a href="sobre.php" class="nav nav-tabs justify-content-end">
       <button class="nav-link bg-success" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-sobre" type="button" role="tab" aria-controls="nav-sobre" aria-selected="false">Sobre</button>
+      </a>
     </div>
 </nav>
 
@@ -39,7 +41,9 @@
 </div>
 
 <body>
-    <h1>Farmácia</h1>
+  <div class="p-1 bg-success-subtle text-success-emphasis">
+    <h1>Sistema de Farmácia</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </div>
 </body>
 </html>
